@@ -1,6 +1,6 @@
 :root {
-    --branco-principal: #FFFFFF;
-    --cinza-secundario: #C0C0C0;
+    --preto-principal: #FFFFFF;
+    --vermelho-secundario: #C0C0C0;
     --botao-azul: #167BF7;
     --cor-de-fundo: #00030C;
     --fonte-principal: 'Inter';
@@ -16,8 +16,8 @@ body {
 }
 
 * {
-    margin: 0;
-    padding: 0;
+    margin: 2;
+    padding: 2;
 }
 
 .principal {
@@ -46,7 +46,7 @@ body {
 
 .botao_secundario {
     background-color: transparent;
-    border: 2px solid var(--branco-principal)
+    border: 2px solid var(--cinza-principal)
 }
 
 .container__aviso {
@@ -119,7 +119,7 @@ body {
 
 .rodape {
     text-align: center;
-    margin: 5em 3em;
+    margin: 7em 5em;
 }
 
 .rodape__lista {
